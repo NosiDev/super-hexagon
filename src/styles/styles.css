@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Jersey 10', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1f1c33;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+canvas {
+	border: 3px solid white;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.volume-button-container {
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1f1c33;
+	border: none;
+	font-size: 3rem;
+	font-weight: bolder;
+	border-radius: 0 0 2rem 2rem;
+	width: 5rem;
+	height: 3rem;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+#volume-button {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-color: transparent;
+}
+
+.icon {
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+#score {
+	background-color: white;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1f1c33;
+	font-size: 3rem;
+	font-weight: bolder;
+	border-radius: 2rem 2rem 0 0;
+	width: 5rem;
+	height: 3rem;
+}
+
+.navbar {
+	height: 5rem;
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.navbar_left {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+	text-decoration: none;
+}
+
+.navbar_right {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.navbar_item {
+	color: white;
+	list-style: none;
+	font-size: 1.5rem;
+}
+
+.navbar_title {
+	color: white;
+	font-weight: bolder;
+	font-size: 3rem;
+}
+
+.navbar_logo {
+	width: 2rem;
+	height: auto;
+}
+
+.navbar_username {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.navbar_icon {
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+
+.navbar_link {
+	color: white;
+	text-decoration: none;
+}
+
+.header {
+	height: 15rem;
+}
+
+.chart-container {
+	height: 60vh;
+	width: 60vw;
+	margin-top: 3rem;
+}
+
+.game-info {
+	margin: 6rem 0;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: white;
+}
+
+.game-info_title {
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.game-info_text {
+	font-size: 2rem;
+	text-align: left;
+}
+
+.game-info_link {
+	color: white;
+}
+
+.footer {
+	height: 10rem;
+	color: white;
+	padding: 2rem;
+}
+
+.footer_link {
+	color: white;
+}
+
+.username-form-container {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.username-form {
+	position: absolute;
+	top: 30%;
+	width: 60vw;
+	height: 20vh;
+	color: white;
+	font-size: 2rem;
+	background-color: #1f1c33;
+	border: 3px solid white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	padding: 2rem;
+}
+
+.username-form_input {
+	font-size: 2rem;
+}
+
+.username-form_button {
+	font-size: 2rem;
+	width: 50%;
+	cursor: pointer;
+}
+
+.leaderboard-container {
+	width: 100vw;
+	padding: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+	row-gap: 2rem;
+}
+
+.leaderboard {
+	height: auto;
+	width: 25vw;
+	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.leaderboard_table {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border: 3px solid white;
+	padding: 5rem;
+}
+
+.leaderboard_list {
+	width: 100%;
+}
+
+.leaderboard_title {
+	font-size: 2.5rem;
+}
+
+.leaderboard_item {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.leaderboard_item-text {
+	font-size: 2rem;
+}
+
+.leaderboard_item-score {
+	font-size: 3rem;
+}
+
+@media (max-width: 720px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 530px) {
+	html {
+		font-size: 8px;
+	}
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Super Hexagon</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="../../assets/icons/icon.ico" />
+		<link
+			rel="stylesheet"
+			href="../styles/styles.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<a
+					class="navbar_left"
+					href="../../index.html">
+					<img
+						class="navbar_logo"
+						src="../../assets/icons/icon.png"
+						alt="Super Hexagon Icon" />
+					<h1 class="navbar_title">Super Hexagon</h1>
+				</a>
+				<div class="navbar_right">
+					<li class="navbar_item">
+						<a
+							class="navbar_link"
+							href="./leaderboard.html"
+							>Leaderboard</a
+						>
+					</li>
+					<li class="navbar_item">
+						<a
+							class="navbar_link"
+							href="./statistics.html"
+							>Statistics</a
+						>
+					</li>
+				</div>
+			</nav>
+		</header>
+		<main class="leaderboard-container">
+			<div class="leaderboard">
+				<h3 class="leaderboard_title">Today's leaderboard</h3>
+				<div class="leaderboard_table">
+					<ul
+						class="leaderboard_list"
+						id="leaderboard-list-last-day">
+						<li class="leaderboard_item">
+							<p class="leaderboard_item-text">MattCoder</p>
+							<p class="leaderboard_item-score">50</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="leaderboard">
+				<h3 class="leaderboard_title">Last week leaderboard</h3>
+				<div class="leaderboard_table">
+					<ul
+						class="leaderboard_list"
+						id="leaderboard-list-last-week">
+						<li class="leaderboard_item">
+							<p class="leaderboard_item-text">MattCoder</p>
+							<p class="leaderboard_item-score">50</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="leaderboard">
+				<h3 class="leaderboard_title">Last month leaderboard</h3>
+				<div class="leaderboard_table">
+					<ul
+						class="leaderboard_list"
+						id="leaderboard-list-last-month">
+						<li class="leaderboard_item">
+							<p class="leaderboard_item-text">MattCoder</p>
+							<p class="leaderboard_item-score">50</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="leaderboard">
+				<h3 class="leaderboard_title">All time leaderboard</h3>
+				<div class="leaderboard_table">
+					<ul
+						class="leaderboard_list"
+						id="leaderboard-list-all-time">
+						<li class="leaderboard_item">
+							<p class="leaderboard_item-text">MattCoder</p>
+							<p class="leaderboard_item-score">50</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<script
+			src="../scripts/leaderboard.js"
+			type="module"></script>
+	</body>
+</html>

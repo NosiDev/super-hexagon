@@ -1,6 +1,8 @@
 # Super Hexagon
 
 Este es un proyecto de programación en vivo donde programamos el videojuego "Super Hexagon" utilizando HTML, JavaScript y la biblioteca p5.js.
+Jugar al juego / Play the game!
+https://mattcoder3.github.io/super-hexagon
 
 ## Descripción
 
@@ -21,10 +23,4 @@ Este es un proyecto de programación en vivo donde programamos el videojuego "Su
 
 ### Pendiente
 
-- Ícono a la app
-- Localstorage de record por usuario
-- Efectos visuales
-- Efectos de sonido
-- Música
-- Leaderboard (usando una base de datos)
-- Gráficos de estadísticas
+- Pestaña para ver estadísticas propias
